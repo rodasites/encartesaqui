@@ -1,0 +1,12 @@
+.menu {
+    float: right;
+    padding: 1px;
+}
+a {
+    color: #2981a7;
+    font-size: 0.6em
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: .0rem;
+}

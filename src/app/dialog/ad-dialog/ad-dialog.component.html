@@ -1,0 +1,9 @@
+<ngu-carousel class="dialog" [inputs]="carouselOne" (carouselLoad)="myfunc($event)">
+  <ngu-item NguCarouselItem *ngFor="let image of images">
+    <img class="img" [src]="image">
+  </ngu-item>
+  <button NguCarouselPrev [class]="buttonLeftSelected == false?'leftRs btnSelected':'leftRs btnNoSelected'" (mouseenter)="mouseLeftOn()" (mouseout)="mouseLeftOn()"><i class="fa fa-chevron-left"></i></button>
+  <button NguCarouselNext [class]="buttonRigthSelected == false?'rightRs btnSelected':'rightRs btnNoSelected'" (mouseenter)="mouseRigthOn()" (mouseout)="mouseRigthOn()"><i class="fa fa-chevron-right"></i></button>
+</ngu-carousel>
+Oferta válida até: <br>
+* EncartesAqui não se responsabiliza pelas ofertas, as mesmas são de responsabilidade dos anunciantes.

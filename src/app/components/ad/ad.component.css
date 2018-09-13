@@ -1,0 +1,28 @@
+.img{
+    width: 100%;
+    cursor: pointer;
+}
+.img-logo{
+    width: 70%;
+    text-align: center;
+}
+.card{
+    background-color: #ffc549;
+    height: 395px;
+} 
+.titulo{
+    text-align: center;
+    margin: 5px;
+    color: #fff;
+}
+.btn{
+    margin-top: 5px;
+    margin-bottom: 5px;
+/*     background-color: #ff1248;
+    border-color: #ff1248; */
+    
+}
+.borda{
+    border-width: 2px;
+    border-color: #ff1248;
+}

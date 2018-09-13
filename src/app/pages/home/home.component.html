@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="col-9">
+            <div class="row">
+                <app-ad class="col-4" *ngFor="let encarte of encartes" [encarte]="encarte"></app-ad>
+            </div>
+        </div>
+        <div class="col-3 anuncios-pagos">
+           <app-side-ad></app-side-ad>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+.img{
+    width: 100%;
+    border: 20px;
+}
+.leftRs{
+    position: absolute;
+    top: 0;
+    width: 10%;
+    height: 100%;
+
+}
+.btnSelected{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.btnNoSelected{
+    background-color: rgba(0, 0, 0, 0.404);
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.rightRs{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 100%;
+}
+

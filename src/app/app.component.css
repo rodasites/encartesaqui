@@ -1,0 +1,14 @@
+.header {
+    background-color: #FFCD00;
+    width: 100%;
+    height: 100px;
+}
+.body {
+    background-color: #852F61; 
+}
+.footer{
+    background-color: #5f5c5a;
+    width: 100%;
+    height: 70px; 
+}
+

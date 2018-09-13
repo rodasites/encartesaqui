@@ -1,0 +1,17 @@
+<div [ngClass]="anuncioFoco === estabelecimento.id ? 'card col-12 borda' : 'card col-12'" (mouseenter)="setFocoAnuncio(estabelecimento.id)" (mouseleave)=setFocoAnuncio(undefined)>
+  <div class="row">
+    <div class="col-12 titulo" >
+      <b>{{ estabelecimento.nome}}</b>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <img (click)="openDialogEncarte()" class="img" [src]="encarte.imagens[0]">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <button (click)="openDialogContact()" class="btn btn-block btn-primary">Entre em contato</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.container{
+    margin-top: 5px;
+}
+.col-4{
+    padding: 5px;
+}
+.anuncios-pagos{
+    background-color: #ffffbb;
+    padding: 0px;
+}
+.anuncios{
+    background-color: #852F61;
+    padding: 0px;
+}
